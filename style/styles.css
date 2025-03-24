@@ -23,6 +23,7 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
+    width: 98vh;
 }
 
 header > h1 {
@@ -97,7 +98,6 @@ th {
 }
 
 .tabela-container {
-    width: 100%;
     overflow-x: auto;
 }
 
