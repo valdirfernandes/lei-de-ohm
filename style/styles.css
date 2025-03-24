@@ -1,0 +1,119 @@
+
+:root {
+    --cor000: #e8f5fd;
+    --cor001: #e8f5fd; /* Um azul bem claro, quase branco */
+    --cor002: #90CAF9; /* Um azul claro e vibrante */
+    --cor003: #42A5F5; /* Um azul médio, equilibrado */
+    --cor004: #1E88E5; /* Um azul escuro, forte e confiável */
+    --cor005: #0D47A1; /* Um azul profundo, para detalhes e contraste */
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor001);
+    color: #333;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor003), var(--cor004));
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header > h1 {
+    color: white;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px ;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor005);
+}
+
+main {
+    min-width: 400px;
+    max-width: 1000px;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    border-radius: 10px 10px;
+    overflow-x: auto; /* Adiciona rolagem horizontal se necessário */
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 15px;
+    line-height: 2em;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor005);
+    background-color: var(--cor001);
+    padding: 2px 6px;
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.tabela-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+.tabela-leis {
+    width: 100%; /* Ajusta a largura da tabela ao container */
+    min-width: 600px; /* Evita que as colunas fiquem muito apertadas */
+    font-size: 12px;
+}
+
+.tabela-leis th {
+    background-color: #f2f2f2;
+    white-space: nowrap; /* Evita que o texto das colunas quebre */
+}
+
+.tabela-leis td th {
+    padding: 5px; /* Reduz o preenchimento */
+    border: 1px solid #ccc; /* Bordas mais finas */
+}
