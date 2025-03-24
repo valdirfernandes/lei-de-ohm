@@ -1,4 +1,8 @@
-
+html , body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 :root {
     --cor000: #e8f5fd;
     --cor001: #e8f5fd; /* Um azul bem claro, quase branco */
@@ -20,11 +24,15 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor003), var(--cor004));
-    width: 100%;
+    width: 100vw; /* Usa toda a largura da viewport */
     min-height: 150px;
     text-align: center;
     padding: 20px;
-    padding-top: 10px ;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header > h1 {
