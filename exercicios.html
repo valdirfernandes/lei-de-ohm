@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Expansível</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .caixa {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .caixa input[type="checkbox"] {
+            display: none; /* Esconde o checkbox */
+        }
+
+        .caixa .conteudo {
+            display: none; /* Esconde o conteúdo inicialmente */
+            margin-top: 10px;
+        }
+
+        .caixa input[type="checkbox"]:checked + label + .conteudo {
+            display: block; /* Mostra o conteúdo quando o checkbox está marcado */
+        }
+
+        .caixa label {
+            cursor: pointer;
+            color: #007BFF;
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>Teste</h1>
+    <div class="caixa">
+        <input type="checkbox" id="toggle1">
+        <label for="toggle1">Clique aqui para ver mais informações</label>
+        <div class="conteudo">
+            <p>Estas são as informações adicionais que estavam escondidas. Você pode adicionar qualquer conteúdo aqui, como texto, imagens, etc.</p>
+        </div>
+    </div>
+
+    <div class="caixa">
+        <input type="checkbox" id="toggle2">
+        <label for="toggle2">Clique aqui para ver mais informações</label>
+        <div class="conteudo">
+            <p>Mais informações adicionais podem ser colocadas aqui também. Sinta-se à vontade para personalizar!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit illum natus consectetur ipsam sapiente, saepe repellendus. Quaerat tempore nulla autem voluptate adipisci dolore maxime! Harum pariatur eveniet aliquam dicta distinctio!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quia numquam, sint, ducimus esse asperiores qui velit reprehenderit amet harum aliquam vel soluta dolor enim temporibus autem incidunt tenetur! Libero!
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
