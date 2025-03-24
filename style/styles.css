@@ -1,7 +1,7 @@
 html , body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
 }
 :root {
     --cor000: #e8f5fd;
@@ -24,7 +24,7 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor003), var(--cor004));
-    width: 100vw; /* Usa toda a largura da viewport */
+    width: 100vw; /* Usa 100% da largura da viewport */
     min-height: 150px;
     text-align: center;
     padding: 20px;
@@ -33,6 +33,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 header > h1 {
@@ -44,6 +45,7 @@ header > h1 {
 
 nav {
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 nav > a {
