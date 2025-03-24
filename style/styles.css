@@ -99,6 +99,7 @@ th {
 
 .tabela-container {
     overflow-x: auto;
+    max-width: 100%; /* Limita a largura da tabela ao contêiner */
 }
 
 
@@ -106,6 +107,7 @@ th {
     width: 100%; /* Ajusta a largura da tabela ao container */
     min-width: 600px; /* Evita que as colunas fiquem muito apertadas */
     font-size: 12px;
+    table-layout: auto; /* Permite que a tabela ajuste suas colunas automaticamente */
 }
 
 .tabela-leis th {
