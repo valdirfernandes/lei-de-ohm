@@ -1,8 +1,8 @@
-html , body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+* {
+    padding: 0px;
+    margin: 0px;
 }
+
 :root {
     --cor000: #e8f5fd;
     --cor001: #e8f5fd; /* Um azul bem claro, quase branco */
