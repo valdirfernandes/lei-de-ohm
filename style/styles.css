@@ -23,7 +23,7 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
-    width: 98vh;
+    width: 100%;
 }
 
 header > h1 {
