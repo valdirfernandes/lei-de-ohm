@@ -22,8 +22,8 @@ header {
     background-image: linear-gradient(to bottom, var(--cor003), var(--cor004));    
     width: 100%;
     max-width: 100vw;
-    color: #ffffff;
     padding: 10px 0;
+    color: #ffffff;
     text-align: center;
 
 }
