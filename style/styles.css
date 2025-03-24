@@ -1,7 +1,7 @@
 html , body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
 }
 :root {
     --cor000: #e8f5fd;
@@ -24,7 +24,7 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor003), var(--cor004));
-    width: 100vw; /* Usa 100% da largura da viewport */
+    width: 100%
     min-height: 150px;
     text-align: center;
     padding: 20px;
