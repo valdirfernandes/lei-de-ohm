@@ -118,3 +118,40 @@ th {
     padding: 5px; /* Reduz o preenchimento */
     border: 1px solid #ccc; /* Bordas mais finas */
 }
+
+.caixa {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.caixa input[type="checkbox"] {
+    display: none; /* Esconde o checkbox */
+}
+
+.caixa .conteudo {
+    display: none; /* Esconde o conteúdo inicialmente */
+    margin-top: 10px;
+}
+
+.caixa input[type="checkbox"]:checked + label + .conteudo {
+    display: block; /* Mostra o conteúdo quando o checkbox está marcado */
+}
+
+.caixa label {
+cursor: pointer;
+color: #000000;
+text-decoration: none;
+}
+
+.correta {
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(29, 146, 29);
+}
+
+.errada {
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 0, 0);
+}
