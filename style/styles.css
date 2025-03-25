@@ -39,17 +39,6 @@ header > h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
-header p {
-    font-size: 1.2em;
-    color: white;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: auto;
-    padding: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.384);
-}
-
 nav {
     background-color: var(--cor004);
     padding: 10px;
