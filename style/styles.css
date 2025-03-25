@@ -22,12 +22,15 @@
 
 header {
     background-image: linear-gradient(to bottom, var(--cor003), var(--cor004));
-    width: 100%;
+    width: 100vw; /* Garante que ocupa toda a largura da tela */
+    max-width: 100%; /* Evita que ultrapasse a largura */
     padding: 20px 0;
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
+    overflow: hidden; /* Evita que elementos internos causem overflow */
 }
+
 
 header > h1 {
     color: white;
@@ -37,7 +40,9 @@ header > h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
-nav {
+nav {display: flex;
+    justify-content: center;
+    max-width: 100%;
     padding: 10px;
     flex-wrap: wrap;
 }
@@ -65,6 +70,8 @@ body {
     padding: 0;
     background-color: var(--cor001);
     color: #333;
+    overflow: hidden;
+    width: 100vw;
 }
 
 main {
