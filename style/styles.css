@@ -115,6 +115,10 @@ main img {
     margin: 0 auto;
 }
 
+ul li {
+    text-align: justify;
+}
+
 h1, h2 {
     color: #444;
 }
