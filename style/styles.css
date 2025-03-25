@@ -1,3 +1,10 @@
+@media (max-width: 768px) {
+
+.tabela-leis th, tabela-leis td {
+    padding: 5px;
+    font-size: 10px;
+}
+}
 
 :root {
     --cor000: #e8f5fd;
@@ -73,7 +80,7 @@ body {
 }
 
 main {
-    min-width: 450px;
+    width: 95%;
     max-width: 1000px;
     margin: 10px auto;
     margin-bottom: 30px;
@@ -132,10 +139,9 @@ th {
 
 
 .tabela-leis {
-    width: 100%; /* Ajusta a largura da tabela ao container */
-    min-width: 600px; /* Evita que as colunas fiquem muito apertadas */
+    width: 600px; /* Ajusta a largura da tabela ao container*/
     font-size: 12px;
-    
+    table-layout: auto;
 }
 
 .tabela-leis th {
