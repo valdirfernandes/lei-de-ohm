@@ -59,6 +59,10 @@ nav > a:hover {
     color: var(--cor001);
 }
 
+section {
+    margin: 10px;
+}
+
 
 main {
     min-width: 300px;
@@ -123,8 +127,8 @@ ul {
 
 }
 
-h1, h2 {
-    color: #444;
+h1 h2 {
+    color: var(--cor005);
 }
 
 table {
