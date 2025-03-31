@@ -8,222 +8,213 @@
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0px; /* Remove margens padrão */
+    padding: 0px; /* Remove preenchimentos padrão */
 }
-
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: var(--cor001);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Define a fonte padrão */
+    background-color: var(--cor001); /* Define a cor de fundo do corpo */
 }
 
-
 header {
-    background-image: linear-gradient(to bottom, var(--cor003), var(--cor004));
-    color: #fff;
-    padding: 30px 20px;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
+    background-image: linear-gradient(to bottom, var(--cor003), var(--cor004)); /* Aplica um gradiente de azul ao cabeçalho */
+    color: #fff; /* Define a cor do texto do cabeçalho como branco */
+    padding: 30px 20px; /* Define o preenchimento do cabeçalho */
+    text-align: center; /* Alinha o texto do cabeçalho ao centro */
+    font-size: 2rem; /* Define o tamanho da fonte do cabeçalho */
+    font-weight: bold; /* Define o peso da fonte do cabeçalho como negrito */
 }
 
 header > h1 {
-    color: white;
-    font-weight: normal;
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    color: white; /* Define a cor do título principal do cabeçalho como branco */
+    font-weight: normal; /* Define o peso da fonte do título principal como normal */
+    font-size: 2em; /* Define o tamanho da fonte do título principal */
+    margin-bottom: 20px; /* Define a margem inferior do título principal */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267); /* Aplica uma sombra ao texto do título principal */
 }
 
 nav {
-    background-color: var(--cor004);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: var(--cor004); /* Define a cor de fundo da barra de navegação */
+    display: flex; /* Usa flexbox para alinhar os itens da barra de navegação */
+    justify-content: center; /* Alinha os itens da barra de navegação ao centro horizontalmente */
+    align-items: center; /* Alinha os itens da barra de navegação ao centro verticalmente */
+    padding: 15px 0; /* Define o preenchimento da barra de navegação */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Aplica uma sombra à barra de navegação */
 }
 
 nav > a {
-    color: white;
-    padding: 10px;
-    border-radius: 5px ;
-    text-decoration: none;
-    font-weight: bold;
-    transition-duration: 0.5s;
+    color: white; /* Define a cor do texto dos links de navegação como branco */
+    padding: 10px; /* Define o preenchimento dos links de navegação */
+    border-radius: 5px; /* Define a borda arredondada dos links de navegação */
+    text-decoration: none; /* Remove o sublinhado dos links de navegação */
+    font-weight: bold; /* Define o peso da fonte dos links de navegação como negrito */
+    transition-duration: 0.5s; /* Define a duração da transição dos links de navegação */
 }
 
 nav > a:hover {
-    background-color: var(--cor005);
-    color: var(--cor001);
+    background-color: var(--cor005); /* Define a cor de fundo dos links de navegação quando o mouse passa por cima */
+    color: var(--cor001); /* Define a cor do texto dos links de navegação quando o mouse passa por cima */
 }
 
 section {
-    margin: 10px;
+    margin: 10px; /* Define a margem das seções */
 }
 
-
 main {
-    min-width: 300px;
-    max-width: 1200px;
-    margin: 30px auto;
-    margin-bottom: 30px;
-    padding: 30px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
-    border-radius: 10px;
+    min-width: 300px; /* Define a largura mínima do conteúdo principal */
+    max-width: 1200px; /* Define a largura máxima do conteúdo principal */
+    margin: 30px auto; /* Define a margem do conteúdo principal */
+    margin-bottom: 30px; /* Define a margem inferior do conteúdo principal */
+    padding: 30px; /* Define o preenchimento do conteúdo principal */
+    background-color: white; /* Define a cor de fundo do conteúdo principal como branco */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548); /* Aplica uma sombra ao conteúdo principal */
+    border-radius: 10px; /* Define a borda arredondada do conteúdo principal */
 }
 
 h1 {
-    color: var(--cor005);
-    padding-bottom: 10px;
+    color: var(--cor005); /* Define a cor dos títulos principais */
+    padding-bottom: 10px; /* Define o preenchimento inferior dos títulos principais */
 }
 
 h2 {
-    color: var(--cor004);
+    color: var(--cor004); /* Define a cor dos subtítulos */
 }
 
 main p {
-    margin: 15px 0px;
-    text-align: justify; 
-    text-indent: 30px;
-    font-size: 1em;
-    line-height: 2em;
+    margin: 15px 0px; /* Define a margem dos parágrafos */
+    text-align: justify; /* Alinha o texto dos parágrafos justificado */
+    text-indent: 30px; /* Define o recuo da primeira linha dos parágrafos */
+    font-size: 1em; /* Define o tamanho da fonte dos parágrafos */
+    line-height: 2em; /* Define o espaçamento entre linhas dos parágrafos */
 }
 
 main strong {
-    font-weight: bolder;
-    padding: 2px 6px;
+    font-weight: bolder; /* Define o peso da fonte do texto em negrito */
+    padding: 2px 6px; /* Define o preenchimento do texto em negrito */
 }
 
 main a {
-    text-decoration: none;
-    font-weight: bold;
-    padding: 2px 6px;
+    text-decoration: none; /* Remove o sublinhado dos links dentro do conteúdo principal */
+    font-weight: bold; /* Define o peso da fonte dos links dentro do conteúdo principal */
+    padding: 2px 6px; /* Define o preenchimento dos links dentro do conteúdo principal */
 }
 
 main img {
-    display: block;
-    margin: 0 auto;
-    width: 750px;
-    text-align: center;
-    max-width: 100%;
-    height: auto;
+    display: block; /* Define o display das imagens como bloco */
+    margin: 0 auto; /* Centraliza as imagens horizontalmente */
+    width: 750px; /* Define a largura das imagens */
+    text-align: center; /* Alinha o texto das imagens ao centro */
+    max-width: 100%; /* Define a largura máxima das imagens como 100% */
+    height: auto; /* Define a altura das imagens automaticamente */
 }
 
 .imgmenor {
-    width: 400px;
+    width: 400px; /* Define a largura das imagens menores */
 }
 
 footer {
-    background-image: linear-gradient(to bottom, var(--cor003), var(--cor004));
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-    margin-top: 20px;
+    background-image: linear-gradient(to bottom, var(--cor003), var(--cor004)); /* Aplica um gradiente de azul ao rodapé */
+    color: white; /* Define a cor do texto do rodapé como branco */
+    text-align: center; /* Alinha o texto do rodapé ao centro */
+    padding: 30px 20px; /* Define o preenchimento do rodapé */
+    margin-top: 20px; /* Define a margem superior do rodapé */
 }
 
 footer > h1 {
-    color: white;
+    color: white; /* Define a cor do título do rodapé como branco */
 }
 
 footer > p {
-    margin: 10px;
-    font-size: 1em;
-    margin-bottom: 2px;
+    margin: 10px; /* Define a margem dos parágrafos do rodapé */
+    font-size: 1em; /* Define o tamanho da fonte dos parágrafos do rodapé */
+    margin-bottom: 2px; /* Define a margem inferior dos parágrafos do rodapé */
 }
 
-
 ul {
-    margin-left: 50px;
-
+    margin-left: 50px; /* Define a margem esquerda das listas não ordenadas */
 }
 
 table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    width: 300px;
-    text-align: center;
+    width: 80%; /* Define a largura das tabelas */
+    margin: 20px auto; /* Define a margem das tabelas */
+    border-collapse: collapse; /* Colapsa as bordas das tabelas */
+    width: 300px; /* Define a largura das tabelas */
+    text-align: center; /* Alinha o texto das tabelas ao centro */
 }
 
 th, td {
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid black; /* Define a borda das células de cabeçalho e dados da tabela */
+    padding: 10px; /* Define o preenchimento das células de cabeçalho e dados da tabela */
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /* Define a cor de fundo das células de cabeçalho */
 }
 
 .tabela-container {
-    overflow-x: auto;
-    max-width: 100%;
+    overflow-x: auto; /* Permite a rolagem horizontal da tabela em telas menores */
+    max-width: 100%; /* Define a largura máxima da tabela como 100% */
 }
 
-
 .tabela-leis {
-    width: 600px; 
-    font-size: 12px;
-    table-layout: auto;
+    width: 600px; /* Define a largura da tabela de leis */
+    font-size: 12px; /* Define o tamanho da fonte da tabela de leis */
+    table-layout: auto; /* Define o layout da tabela de leis como automático */
 }
 
 .tabela-leis th {
-    background-color: #f2f2f2;
-    white-space: nowrap; 
+    background-color: #f2f2f2; /* Define a cor de fundo das células de cabeçalho da tabela de leis */
+    white-space: nowrap; /* Impede a quebra de linha nas células de cabeçalho da tabela de leis */
 }
 
 .tabela-leis td th {
-    padding: 5px; 
-    border: 1px solid #ccc; 
+    padding: 5px; /* Define o preenchimento das células de dados da tabela de leis */
+    border: 1px solid #ccc; /* Define a borda das células de dados da tabela de leis */
 }
 
 .caixa {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    
+    border: 1px solid #ccc; /* Define a borda das caixas */
+    border-radius: 5px; /* Define a borda arredondada das caixas */
+    padding: 10px; /* Define o preenchimento das caixas */
+    margin-bottom: 10px; /* Define a margem inferior das caixas */
+    position: relative; /* Define a posição das caixas como relativa */
 }
 
 .caixafooter {
-    padding: 10px;
-    margin-bottom: 10px;
-    position: relative;
+    padding: 10px; /* Define o preenchimento das caixas no rodapé */
+    margin-bottom: 10px; /* Define a margem inferior das caixas no rodapé */
+    position: relative; /* Define a posição das caixas no rodapé como relativa */
 }
 
 .caixa input[type="checkbox"] {
-    display: none; 
+    display: none; /* Oculta as caixas de seleção */
 }
 
 .caixa .conteudo {
-    display: none; 
-    margin-top: 10px;
+    display: none; /* Oculta o conteúdo das caixas */
+    margin-top: 10px; /* Define a margem superior do conteúdo das caixas */
 }
 
 .caixa input[type="checkbox"]:checked + label + .conteudo {
-    display: block; 
+    display: block; /* Exibe o conteúdo da caixa quando a caixa de seleção é marcada */
 }
 
 .caixa label {
-cursor: pointer;
-color: #000000;
-text-decoration: none;
+    cursor: pointer; /* Define o cursor do mouse como ponteiro */
+    color: #000000; /* Define a cor do texto dos rótulos das caixas */
+    text-decoration: none; /* Remove o sublinhado dos rótulos das caixas */
 }
 
 .correta {
-font-family: Arial, Helvetica, sans-serif;
-color: rgb(29, 146, 29);
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto de respostas corretas */
+    color: rgb(29, 146, 29); /* Define a cor do texto de respostas corretas como verde */
 }
 
 .errada {
-font-family: Arial, Helvetica, sans-serif;
-color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte do texto de respostas erradas */
+    color: rgb(255, 0, 0); /* Define a cor do texto de respostas erradas como vermelho */
 }
-
-
 
 
 
